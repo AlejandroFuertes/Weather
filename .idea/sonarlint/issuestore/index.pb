@@ -75,3 +75,5 @@ Zsrc/test/java/com/vates/provincia/seguros/techchallenge/TechchallengeApplicatio
 isrc/test/java/com/vates/provincia/seguros/techchallenge/service/impl/CurrentWeatherDBServiceImplTest.java,e\6\e6511c74c482f57d6da7abbcf2381f69876b6750
 |
 Lsrc/test/java/com/vates/provincia/seguros/techchallenge/utils/TestUtils.java,3\5\35303fc9b5d14c639a2d3cda40ccab6ca4538c1a
+9
+	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d

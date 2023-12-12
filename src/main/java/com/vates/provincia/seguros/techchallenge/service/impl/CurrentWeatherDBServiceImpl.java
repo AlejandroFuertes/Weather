@@ -30,7 +30,7 @@ import java.util.stream.Collectors;
 @Slf4j
 public class CurrentWeatherDBServiceImpl implements CurrentWeatherDBService {
 
-    private static final int MINUTE_EXPIRATION = 40;
+    private static final int MINUTE_EXPIRATION = 1;
 
     private final WeatherClientService weatherClientService;
     private final LoadDBService loadDBService;
