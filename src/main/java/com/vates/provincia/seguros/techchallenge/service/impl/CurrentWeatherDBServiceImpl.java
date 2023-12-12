@@ -101,8 +101,6 @@ public class CurrentWeatherDBServiceImpl implements CurrentWeatherDBService {
             return cityEntity.get();
         }
 
-        //y tambien devuelvo una excepcion personalizada
-        //MENSAJE DE ERROR CUANDO NO ENCUENTRA UNA CIUDAD MEDIANTE UN PAIS
         log.error("No se encontro la ciudad asociada al pais '{}'.", country);
         throw new CountryNotFoundException("No se encontro la ciudad asociada al pais '" + country + "'.", HttpStatus.NOT_FOUND);
     }

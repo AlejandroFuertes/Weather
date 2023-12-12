@@ -9,8 +9,6 @@ Usrc/main/java/com/vates/provincia/seguros/techchallenge/TechchallengeApplicatio
 Usrc/main/java/com/vates/provincia/seguros/techchallenge/client/AccuWeatherClient.java,7\3\738c197073063ecf394844ddc5456c876f79dd5f
 â
 Ysrc/main/java/com/vates/provincia/seguros/techchallenge/dto/WeatherCurrentConditions.java,9\9\9913f7197e56841cfe7a2b761b41baf17681aee9
-â
-Ysrc/main/java/com/vates/provincia/seguros/techchallenge/controller/WeatherController.java,e\8\e88db48207d2ffbad31c01495dffe60c5b0e427c
 u
 Esrc/main/java/com/vates/provincia/seguros/techchallenge/dto/Wind.java,0\f\0fa869cf18022b878f18dfd663285848ccc2e6fa
 |
@@ -71,3 +69,9 @@ Isrc/main/java/com/vates/provincia/seguros/techchallenge/dto/ErrorDTO.java,9\a\
 _src/main/java/com/vates/provincia/seguros/techchallenge/exception/CountryNotFoundException.java,9\4\94b01201ca9e5ee3a2b0f9f29f9a413636bb2f6f
 è
 _src/main/java/com/vates/provincia/seguros/techchallenge/exception/WeatherNotFoundException.java,b\2\b2ad61965962960c22236a78d24d8d9afbbabfbb
+ä
+Zsrc/test/java/com/vates/provincia/seguros/techchallenge/TechchallengeApplicationTests.java,f\1\f11b189b96992580bccf873ff640026039562960
+ô
+isrc/test/java/com/vates/provincia/seguros/techchallenge/service/impl/CurrentWeatherDBServiceImplTest.java,e\6\e6511c74c482f57d6da7abbcf2381f69876b6750
+|
+Lsrc/test/java/com/vates/provincia/seguros/techchallenge/utils/TestUtils.java,3\5\35303fc9b5d14c639a2d3cda40ccab6ca4538c1a
