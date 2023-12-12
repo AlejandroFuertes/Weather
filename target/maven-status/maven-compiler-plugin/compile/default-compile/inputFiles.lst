@@ -1,3 +1,33 @@
-D:\Personal\DesafiosTecnicos\techchallenge\src\main\java\com\vates\provincia\seguros\techchallenge\TechchallengeApplication.java
-D:\Personal\DesafiosTecnicos\techchallenge\src\main\java\com\vates\provincia\seguros\techchallenge\dto\CountryResponse.java
-D:\Personal\DesafiosTecnicos\techchallenge\src\main\java\com\vates\provincia\seguros\techchallenge\controller\AccuWeatherController.java
+D:\PRUEBA TECNICA\techchallenge\src\main\java\com\vates\provincia\seguros\techchallenge\dto\WeatherCurrentConditions.java
+D:\PRUEBA TECNICA\techchallenge\src\main\java\com\vates\provincia\seguros\techchallenge\service\LoadDBService.java
+D:\PRUEBA TECNICA\techchallenge\src\main\java\com\vates\provincia\seguros\techchallenge\repository\WeatherRepository.java
+D:\PRUEBA TECNICA\techchallenge\src\main\java\com\vates\provincia\seguros\techchallenge\repository\CityRepository.java
+D:\PRUEBA TECNICA\techchallenge\src\main\java\com\vates\provincia\seguros\techchallenge\dto\ErrorDTO.java
+D:\PRUEBA TECNICA\techchallenge\src\main\java\com\vates\provincia\seguros\techchallenge\exception\WeatherNotFoundException.java
+D:\PRUEBA TECNICA\techchallenge\src\main\java\com\vates\provincia\seguros\techchallenge\exception\CountryNotFoundException.java
+D:\PRUEBA TECNICA\techchallenge\src\main\java\com\vates\provincia\seguros\techchallenge\client\AccuWeatherClient.java
+D:\PRUEBA TECNICA\techchallenge\src\main\java\com\vates\provincia\seguros\techchallenge\dto\response\WeatherResponse.java
+D:\PRUEBA TECNICA\techchallenge\src\main\java\com\vates\provincia\seguros\techchallenge\dto\Temperature.java
+D:\PRUEBA TECNICA\techchallenge\src\main\java\com\vates\provincia\seguros\techchallenge\service\impl\WeatherClientServiceImpl.java
+D:\PRUEBA TECNICA\techchallenge\src\main\java\com\vates\provincia\seguros\techchallenge\dto\Wind.java
+D:\PRUEBA TECNICA\techchallenge\src\main\java\com\vates\provincia\seguros\techchallenge\dto\AdministrativeArea.java
+D:\PRUEBA TECNICA\techchallenge\src\main\java\com\vates\provincia\seguros\techchallenge\converter\WeatherConverter.java
+D:\PRUEBA TECNICA\techchallenge\src\main\java\com\vates\provincia\seguros\techchallenge\dto\Speed.java
+D:\PRUEBA TECNICA\techchallenge\src\main\java\com\vates\provincia\seguros\techchallenge\dto\Country.java
+D:\PRUEBA TECNICA\techchallenge\src\main\java\com\vates\provincia\seguros\techchallenge\service\impl\LoadDBServiceImpl.java
+D:\PRUEBA TECNICA\techchallenge\src\main\java\com\vates\provincia\seguros\techchallenge\dto\response\CityResponse.java
+D:\PRUEBA TECNICA\techchallenge\src\main\java\com\vates\provincia\seguros\techchallenge\entity\CityEntity.java
+D:\PRUEBA TECNICA\techchallenge\src\main\java\com\vates\provincia\seguros\techchallenge\dto\Region.java
+D:\PRUEBA TECNICA\techchallenge\src\main\java\com\vates\provincia\seguros\techchallenge\converter\CityConverter.java
+D:\PRUEBA TECNICA\techchallenge\src\main\java\com\vates\provincia\seguros\techchallenge\config\SwaggerConfig.java
+D:\PRUEBA TECNICA\techchallenge\src\main\java\com\vates\provincia\seguros\techchallenge\dto\Metric.java
+D:\PRUEBA TECNICA\techchallenge\src\main\java\com\vates\provincia\seguros\techchallenge\service\WeatherClientService.java
+D:\PRUEBA TECNICA\techchallenge\src\main\java\com\vates\provincia\seguros\techchallenge\TechchallengeApplication.java
+D:\PRUEBA TECNICA\techchallenge\src\main\java\com\vates\provincia\seguros\techchallenge\dto\response\WeatherCityResponse.java
+D:\PRUEBA TECNICA\techchallenge\src\main\java\com\vates\provincia\seguros\techchallenge\service\CurrentWeatherDBService.java
+D:\PRUEBA TECNICA\techchallenge\src\main\java\com\vates\provincia\seguros\techchallenge\controller\WeatherDBController.java
+D:\PRUEBA TECNICA\techchallenge\src\main\java\com\vates\provincia\seguros\techchallenge\service\impl\CurrentWeatherDBServiceImpl.java
+D:\PRUEBA TECNICA\techchallenge\src\main\java\com\vates\provincia\seguros\techchallenge\dto\Location.java
+D:\PRUEBA TECNICA\techchallenge\src\main\java\com\vates\provincia\seguros\techchallenge\entity\WeatherEntity.java
+D:\PRUEBA TECNICA\techchallenge\src\main\java\com\vates\provincia\seguros\techchallenge\exception\ControllerAdvice.java
+D:\PRUEBA TECNICA\techchallenge\src\main\java\com\vates\provincia\seguros\techchallenge\exception\CityNotFoundException.java
