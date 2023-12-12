@@ -9,6 +9,7 @@ Weather se conecta a la API de AccuWeather para extraer información sobre el cl
 Para poder ejecutar el programa necesitaras
 
 - [JDK 1.8](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
+- [Postman](https://www.postman.com/downloads/)
 
 ## Ejecutar la aplicacion localmente
 
@@ -19,3 +20,6 @@ Alternativamente tambien puedes usar el comando:
 ```shell
 mvn spring-boot:run
 ```
+## Pruebas
+
+Para poder probar la API deje un archivo llamado `Weather API.postman_collection` en `src/main/resources`. Este archivo debe ser importado en la herramienta Postman desde `file -> import`
