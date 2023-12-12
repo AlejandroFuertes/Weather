@@ -23,3 +23,11 @@ mvn spring-boot:run
 ## Pruebas
 
 Para poder probar la API deje un archivo llamado `Weather API.postman_collection` en `src/main/resources`. Este archivo debe ser importado en la herramienta Postman desde `file -> import`
+
+## Tecnologias utilizadas
+
+- Java 1.8
+- Maven 3.6.3
+- Swagger
+- Spring Boot 2.4.5
+- Feign Client
