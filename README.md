@@ -3,6 +3,8 @@
 # Weather
 
 Weather se conecta a la API de AccuWeather para extraer información sobre el clima de diferentes ciudades del mundo. La API realiza consultas a la API de AccuWeather y guarda los resultados en una base de datos en memoria.
+Cada ciudad y su respectivo clima se registran en la aplicación, con una marca de tiempo en la entidad City. Esta marca de tiempo permite actualizar la información climática de cada ciudad periódicamente. El intervalo de tiempo establecido para estas actualizaciones es de 1 minuto.
+Cuando se realiza una consulta a la aplicación, se valida que la información climática no sea más antigua de 1 minuto. En caso de que haya transcurrido más tiempo, la aplicación realiza una nueva consulta a la API de AccuWeather, recupera los datos más recientes y actualiza la base de datos con el nuevo registro, asegurando la precisión y la actualización constante de la información climática.
 
 ## Primeros Pasos
 
