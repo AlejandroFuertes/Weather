@@ -21,7 +21,7 @@ public class ControllerAdvice {
     }
 
     @ExceptionHandler(CountryNotFoundException.class)
-    public ResponseEntity<ErrorDTO> cityNotFoundExceptionHandler(CountryNotFoundException ex) {
+    public ResponseEntity<ErrorDTO> countryNotFoundExceptionHandler(CountryNotFoundException ex) {
 
         ErrorDTO error = ErrorDTO.builder()
                 .message(ex.getMessage())
@@ -31,7 +31,7 @@ public class ControllerAdvice {
     }
 
     @ExceptionHandler(WeatherNotFoundException.class)
-    public ResponseEntity<ErrorDTO> cityNotFoundExceptionHandler(WeatherNotFoundException ex) {
+    public ResponseEntity<ErrorDTO> weatherNotFoundExceptionHandler(WeatherNotFoundException ex) {
 
         ErrorDTO error = ErrorDTO.builder()
                 .message(ex.getMessage())

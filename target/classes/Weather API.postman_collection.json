@@ -1,0 +1,158 @@
+{
+	"info": {
+		"_postman_id": "3a3092b5-aed2-4a48-b4bf-fb4fc69bc965",
+		"name": "Weather API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "8709912"
+	},
+	"item": [
+		{
+			"name": "Obtener Clima por Ciudad",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/pronostico/city?city=buenos aires",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"pronostico",
+						"city"
+					],
+					"query": [
+						{
+							"key": "city",
+							"value": "buenos aires"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Obtener Excepcion por Ciudad",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/pronostico/city?city=ciudad no encontrada",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"pronostico",
+						"city"
+					],
+					"query": [
+						{
+							"key": "city",
+							"value": "ciudad no encontrada"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Obtener Clima por Ciudad y Pais",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/pronostico/city/country?city=buenos aires&country=Argentina",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"pronostico",
+						"city",
+						"country"
+					],
+					"query": [
+						{
+							"key": "city",
+							"value": "buenos aires"
+						},
+						{
+							"key": "country",
+							"value": "Argentina"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Obtener Excepcion Pais",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/pronostico/city/country?city=buenos aires&country=pais no encontrado",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"pronostico",
+						"city",
+						"country"
+					],
+					"query": [
+						{
+							"key": "city",
+							"value": "buenos aires"
+						},
+						{
+							"key": "country",
+							"value": "pais no encontrado"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "id",
+			"value": "1"
+		},
+		{
+			"key": "base_url",
+			"value": "https://postman-rest-api-learner.glitch.me/"
+		}
+	]
+}
